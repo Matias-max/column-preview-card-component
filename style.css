@@ -1,0 +1,205 @@
+:root{
+    --primary: hsl(31, 77%, 52%);
+    --secundary: hsl(184, 100%, 22%);
+    --tertiary: hsl(179, 100%, 13%);
+
+    --ff-family: 'Lexend Deca', sans-serif;
+    
+
+}
+
+.body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    padding: 150px;
+    
+}
+
+.cardsedans{
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+   
+    font-family: 'Lexend Deca', sans-serif;
+    top: auto;
+    color: white    ;
+    background-color: var(--primary);
+    width: 700px;
+    height: 400px;
+    /*border: 10px;*/
+}
+
+.cardsedans h1{
+    padding-left: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.iconsedans{
+    padding: 25px;
+    padding-left: 30px;
+}
+.infosedans p{
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    padding-left: 30px
+    
+}
+
+.buttonsedans{
+    background-color: white;
+    font-family: var(--ff-family);
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--primary);
+    float: left;
+    margin-left: 25px;
+}
+.buttonsedans:hover{
+    background-color: var(--primary);
+    color: white;
+    border: solid #fff;
+    
+}
+
+.cardsuvs{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 700px;
+    height: 400px;
+    color: white;
+    background-color: var(--secundary);
+}
+
+.cardsuvs h1{
+    padding-left: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.infosuvs p{
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    padding-left: 30px
+}
+.iconsuvs{
+    padding: 25px;
+    padding-left: 30px;
+}
+
+.buttonsuvs{
+    font-family: var(--ff-family);
+    width: 150px;
+    color: var(--secundary);
+    height: 50px;
+    border-radius: 20px;
+    
+    float: left;
+    margin-left: 25px;
+}
+.buttonsuvs:hover{
+    background-color: var(--secundary);
+    color: white;
+    border: solid #fff;
+    
+}
+.cardluxury{
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+
+    font-family: 'Lexend Deca', sans-serif;
+    top: auto;
+    color: white    ;
+    background-color: var(--tertiary);
+    width: 700px;
+    height: 400px;
+    border: 10px;
+
+}
+
+.cardluxury h1{
+    padding-left: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.iconluxury{
+    padding: 25px;
+    padding-left: 30px;
+}
+.infoluxury{
+    height: 50px;
+    width: 250px;
+    padding: 0px;
+    padding-left: 30px
+}
+.buttonsedans{
+    border: var(--primary);
+    font-family: var(--ff-family);
+    width: 150px;
+    color: var(--primary);
+    height: 50px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 25px;
+}
+
+.buttonsuvs{
+    border: var(--primary);
+    font-family: var(--ff-family);
+    width: 150px;
+    color: var(--secundary);
+    height: 50px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.buttonluxury{
+    border: var(--tertiary);
+    font-family: var(--ff-family);
+    width: 150px;
+    color: var(--tertiary);
+    height: 50px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 25px;
+}
+
+.buttonluxury:hover{
+    background-color: var(--tertiary);
+    color: white;
+    border: solid #fff;
+    
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .container{
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+    .cardsedans{
+        width: 300px;
+        border-radius: 0px;
+        border-top-left-radius: 10px 10px;
+        border-top-right-radius: 10px 10px;
+    }
+    .cardsuvs{
+        width: 300px;
+    }
+    .cardluxury{
+        width: 300px;
+        border-radius: 0px;
+        border-bottom-right-radius: 10px 10px;
+        border-bottom-left-radius: 10px 10px;
+    }
+}
+
+
+
+
+
